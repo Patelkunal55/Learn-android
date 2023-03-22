@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".Switch_Button">
+
+    <TextView
+        android:id="@+id/text_switch"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select switch Button"
+        android:textSize="30dp"
+        android:layout_marginLeft="40dp"
+        android:textColor="@color/black"/>
+
+    <Switch
+        android:id="@+id/switch_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/text_switch"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+        android:id="@+id/text_on_off"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text switch on or off"
+        android:textSize="30dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@+id/switch_on_off" />
+
+
+
+</RelativeLayout>

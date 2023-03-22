@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Learn Android</string>
+    <string name="button">click button</string>
+    <string name="dialogTitle">Delete File</string>
+    <string name="dialogMessage">Deleting file may be harm your system</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="favourite">Favourite Fragment</string>
+    <string name="setting_fragment">Settting Fragment</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string-array name="months">
+        <item>Select Any Option</item>
+        <item>January</item>
+        <item>Feburary</item>
+        <item>March</item>
+        <item>April</item>
+        <item>May</item>
+        <item>June</item>
+        <item>July</item>
+        <item>August</item>
+        <item>September</item>
+        <item>October</item>
+        <item>November</item>
+        <item>December</item>
+    </string-array>
+</resources>
