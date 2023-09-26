@@ -12,7 +12,7 @@ class SharedPreference : AppCompatActivity() {
         setContentView(R.layout.activity_shared_preference)
 
         loadData()
-        b_button.setOnClickListener {
+        b_button.setOnClickListener {//This on Clicked button
             saveData()
         }
     }
